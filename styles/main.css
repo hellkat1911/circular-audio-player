@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h1 {
+  color: inherit;
+  font-size: 4rem;
+  line-height: 1;
+  margin-top: 0;
+}
+
+p {
+  color: inherit;
+}
+
+.tr-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* background-image: url('/assets/images/marquee-4000x2250.jpg'); */
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tr-header-inner {
+  margin: 0 auto;
+  max-width: 1000px;
+  top: 27%;
+  width: 100%;
+}
+
+.tr-section {
+  padding-top: 15px;
+}
+
+.tr-inner {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.tr-flex {
+  display: flex;
+  position: relative;
+}
+
+.tr-flex-item {
+  position: relative;
+}
+
+.tr-col-6 {
+  flex: 0 1 auto;
+  width: 50%;
+}
+
+.tr-col-12 {
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+.tr-audio-container {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#tr-audio {
+  display: none;
+}
+
+#tr-play-btn {
+  background: none;
+  border: none;
+  max-width: 250px;
+  position: relative;
+  z-index: 2;
+}
+
+#tr-play-btn svg {
+  cursor: pointer;
+}
+
+#tr-timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  min-height: 27px;
+}
+
+#tr-prog-bar {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
